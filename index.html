@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TP2</title>
+  </head>
+  <body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <div id="global">
+      <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#inscription">Inscription</a>
+        <a href="#articles">Articles</a>
+        <a href="#tableau">Tableau</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#video">Vidéo</a>
+        <a href="#pied_de_page">Pied de page</a>
+        <a href="https://batoul78.github.io/Mon-projet-TP2/">Github</a>
+      </nav>
+
+      <header id="accueil">
+        <div id="h_text">
+          <h1>Les êtres des ténèbres</h1>
+          <p>De Batoul Fakih</p>
+        </div>
+
+        <img id="CFoncé" src="images/Calmar foncé.png" alt="calmar_geant" />
+        <img id="COg" src="images/calmar geant.png" alt="calmar_geant" />
+
+        <div id="p_projet">
+          <p>TP2 -Automne 2024</p>
+          <p>Techniques d'intégration multimédia</p>
+          <p>Collège de Maisonneuve</p>
+        </div>
+      </header>
+
+      <div id="inscription">
+        <form action="">
+          <caption>
+            Inscription
+          </caption>
+          <fieldset>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" />
+            <br />
+
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" />
+            <br />
+
+            <label for="email">adresse email</label>
+            <input type="text" id="email" name="email" />
+            <br />
+
+            <label for="date">Date de naissance</label>
+            <input type="date" id="date" name="date" />
+            <br />
+
+            <label for="notif">Autoriser les notifications</label>
+            <input type="radio" id="notif" name="notif" value="notif_oui" />
+            <br />
+            <input type="reset" id="btn_reanaliser" value="réanaliser" />
+            <input type="submit" id="btn_submit" value="Soumettre" />
+          </fieldset>
+        </form>
+      </div>
+
+      <div id="articles">
+        <div id="poisson_pecheur">
+          <h2>Le Poisson Pêcheur</h2>
+
+          <div id="pp1">
+            <img src="images/poisson_pecheur.jpg" alt="poisson pecheur" />
+            <p>
+              Le poisson pêcheur est un poisson très connu par les gens.Leur nom
+              provient de la façon dont il chasse leur proie.Ces poissons
+              possède une entenne où le bout représente l'appât.Cet appât est
+              remplis de bactéries symbiotiques, ce qui le permet de créer de la
+              Bioluminescence.Les femelles sont aussi 60 fois plus grande que
+              leur mâle
+            </p>
+          </div>
+          <div id="pp2">
+            <p>
+              La grande majorité des personnes pense que le poisson pêcheur
+              n'est qu'un seul poisson de couleur brun et bleu.Alors qu'il
+              existe une grande variété que celle qu'on connaît tous.L'une
+              d'entre elles est le Chaunacops coloratus.
+            </p>
+
+            <img
+              src="images/poisson-pecheur_rouge.jpg"
+              alt="poisson pecheur rouge"
+            />
+          </div>
+        </div>
+
+        <div id="regalecides">
+          <h2>Le Regalecides</h2>
+          <img src="images/regalecides.jpg" alt="regalecides" />
+          <p>
+            Le régicides, aussi connus par le nom "poisson ruban" est le plus
+            long poisson osseux encore vivant aujourd'hui.À cause de son
+            apparemment, plusieurs historiens pensent que la grande majorité des
+            les histoires des serpents de mer proviennent de ce poisson.
+          </p>
+          <img src="images/regalecides_taille.jpg" alt="regalecides taille" />
+        </div>
+
+        <div id="calmar_colossal">
+          <h2>Le Calmar Colossal</h2>
+
+          <p>
+            Le calmar colossal est un être très difficile à documenter.Très peu
+            De photo ou de vidéo ont été trouvées.Cela est dû à leur habitat qui
+            Est dans les profondeurs glaciaires de l'Antartique.
+          </p>
+
+          <img
+            id="cc1"
+            src="images/calmar_colossal.jpg"
+            alt="calmar colossal"
+          />
+
+          <div id="cc2">
+            <img src="images/calmar_different.jpg" alt="calmar taille" />
+          </div>
+
+          <div id="p2">
+            <h3>La différence entre un calmar géant et un calmar colossal</h3>
+            <p>
+              Le calmar géant,qui est beaucoup plus commun,a des bras buccaux
+              plus grande que leur manteau.Mais le calmar colossal a des petits
+              bras buccaux et des énormes tentacules.
+            </p>
+          </div>
+        </div>
+
+        <div id="ange_de_mer">
+          <div id="text_ange">
+            <h2>Les anges des mers</h2>
+            <p>
+              Les anges de mer se trouvent dans toutes les profondeurs des
+              océans.Elle fait partie de la famille des Gastéropodes, comme les
+              limaces et les escargots.Ils ont vécu depuis 400 millions
+              d'années.Malgré leur nom très angélique, ces limaces sont des
+              prédateur spécialisé contre les papillons de mer.
+            </p>
+          </div>
+
+          <img src="images/ange_de_mer.jpg" alt="ange de mer" />
+        </div>
+      </div>
+
+      <div id="tableau">
+        <h3>Comparaison entre l'homme et ces êtres marins</h3>
+        <table>
+          <tr>
+            <th>êtres</th>
+            <th>Taille</th>
+            <th>Poids</th>
+            <th>Pression surportable sous l'eau</th>
+          </tr>
+
+          <tr>
+            <td>L'homme</td>
+            <td>1.72 m</td>
+            <td>62 kg</td>
+            <td>40 m</td>
+          </tr>
+
+          <tr>
+            <td>ange de mer</td>
+            <td>3 à 5 cm</td>
+            <td>0.18 g</td>
+            <td>20 m</td>
+          </tr>
+
+          <tr>
+            <td>poisson pecheur</td>
+            <td>1 m</td>
+            <td>0.44 g à 70 kg</td>
+            <td>914,4 m</td>
+          </tr>
+
+          <tr>
+            <td>regalecides</td>
+            <td>9 m</td>
+            <td>300 kg</td>
+            <td>250 à 1000 m</td>
+          </tr>
+
+          <tr>
+            <td>Calmar colossal</td>
+            <td>14 m</td>
+            <td>495 à 750 kg</td>
+            <td>2000 m</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="galerie">
+        <h2>L'écosystème des profondeurs</h2>
+        <p>
+          Nous pensons que ces océans ténébreux sont vides de végétation.Alors
+          qu'elle est aussi riche de vie que toute autre mer!
+        </p>
+        <img
+          title="Algue et étoile de mer"
+          src="images/algue_et_etoile.jpg"
+          alt=""
+        />
+
+        <img title="bassin de saumures" src="images/brime_pool.png" alt="" />
+
+        <img
+          title="Cheminées hydrothermales"
+          src="images/thermal_vent.jpg"
+          alt=""
+        />
+
+        <img
+          title="fond marin de l'Antarctique"
+          src="images/bentoshielo.jpg"
+          alt=""
+        />
+        <br />
+
+        <img
+          title="Cheminées hydrothermales et la présence des vers tubicoles géants"
+          src="images/Vents-on-the-Juan-de-Fuca-ridge.jpg"
+          alt=""
+        />
+
+        <img
+          title="banquise de l'Antarctique Australienne"
+          src="images/corail.jpg"
+          alt=""
+        />
+      </div>
+
+      <div id="video">
+        <h2>Pourquoi sont-il si géant?</h2>
+        <p>
+          Cette vidéo vous présentera l'effet du gigantisme et de l'environnement
+          que ces animaux marins habitent.
+        </p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/FmR14Yng9kI?si=2ZK3zg7Aod3sgOMO"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <footer id="pied_de_page">
+        <a href="https://www.cmaisonneuve.qc.ca/">College de Maisonneuve</a>
+
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+      </footer>
+    </div>
+  </body>
+</html>
